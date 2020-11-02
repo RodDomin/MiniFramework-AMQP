@@ -1,0 +1,21 @@
+{
+    "name": "rodrigoalves/php-rabbit",
+    "description": "",
+    "authors": [
+        {
+            "name": "Rodrigo Alves",
+            "email": "rodrigoalves009@gmail.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^2.12",
+        "react/event-loop": "^1.1",
+        "monolog/monolog": "^2.1",
+        "bramus/monolog-colored-line-formatter": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MiniFrameWork\\": "src/"
+        }
+    }
+}
